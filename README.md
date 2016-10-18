@@ -6,6 +6,8 @@ We’re going to set up an environment that allows a malware analyst to log all 
 
 Prerequisites:
 
+Make sure you use the same bitness (x86 or x64) across all components (python, pykd, windbg)!
+
 1.	python 2.7
 2.	WinDBG
   -	set up symbols 
