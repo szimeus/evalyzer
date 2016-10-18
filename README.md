@@ -21,7 +21,11 @@ Prerequisites:
 read the tutorial.pdf to understand the technique
 
 How to use it:
-1. Fire up an IE11 browser
-2. run IELog.ps1
-3. navigate to the URL containing the javascript to be analyzed
-4. check the logs
+
+1.  Fire up an IE11 browser
+
+2.  run IELog.ps1
+
+3.  navigate to the URL containing the javascript to be analyzed
+
+4.  check the logs
