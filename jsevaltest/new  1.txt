@@ -1,0 +1,10 @@
+<html>
+<body>
+HELLO!
+<script>
+var i=6;
+var j=7;
+var k = eval("var l=i*j+21;alert(l);"
+</script>
+</body>
+</html>

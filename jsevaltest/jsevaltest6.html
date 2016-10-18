@@ -1,0 +1,11 @@
+<html>
+<script>
+function multieval() {
+var b=100;
+var a="eval('var x'+b+'=b');if(!b--){a=1};eval(a)";
+var c=eval(a)
+document.write('MyDOMEgG')
+}
+</script>
+<body onload="multieval()">WinDBG multi eval test</body>
+</html>

@@ -1,0 +1,7 @@
+.logopen /t "c:\logs\ie_eval_log.txt"
+.foreach /s (exc "ct et cpr ld ud ser ibp iml asrt aph eh clr clrn dm ip dz iov ch hc lsq isc 3c svh sse ssec vs vcpp wkd rto rtt wos *") {sxi ${exc}}
+.foreach /s (exc "epr sbo sov gp ii av") {sxe ${exc}}
+sxe -c ".logclose" -h epr
+bu jscript9!Js::ScriptContext::IsInEvalMap ".echo EVAL(dyn)-----;.printf \"%mu\", poi(esp+0x18);.echo;g"
+g
+
