@@ -18,7 +18,7 @@ Prerequisites:
 4.  chain.py (contained in this repo) - copy file to windbg x86|x64 folder
 
 
-read the tutorial.pdf to understand the technique
+Read the Evalyzer_tutorial.pdf to understand the technique!
 
 How to use it:
 
