@@ -1,5 +1,5 @@
 # evalyzer
-Using WinDBG to tap into JavaScript and help with deobfuscation and browser exploit detection
+Use WinDBG to tap into JavaScript and help with deobfuscation and browser exploit detection!
 
 Steps to start creating your own JavaScript malware analyzer in IE11
 We’re going to set up an environment that allows a malware analyst to log all JavaScript eval operations without giving a chance to the malicious page to ever realize it is being debugged. Unlike the popular methods that rely either on workarounds that run the script in an external JS engine or injecting script code to overload eval function or add event handling or single stepping and breakpointing in the built-in browser script debuggers, we’re going to tap into the real JS Engine to log everything that is being eval’d. To do this we’re going to use WinDBG – in fact the command-line version of it, called NTSD.exe. The below write-up summarizes the steps needed to make this work in IE11. However the same method could be re-tailored to work in every other browser, so if you pay attention and follow along and understand why this works and how it works I’m sure it would only take you a short while to customize it to your environment.
