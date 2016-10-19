@@ -31,5 +31,6 @@ How to use it:
 3.  navigate to the URL containing the javascript to be analyzed
 
 4.  check the logs
+__________
 
 update coming up very shortly! ( IE8 version, VirtualProtect breakpoints, etc...)
