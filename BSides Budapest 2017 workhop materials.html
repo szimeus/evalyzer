@@ -1,0 +1,30 @@
+<html>
+<body>
+<H3>Welcome to the BSides Budapest 2017 <b>Evalyzer workshop</b></H3>
+
+<br>
+<b>Slides and material</b> available from: <br><a href="https://drive.google.com/drive/folders/0B1lzT-Hp-8j2VGhQYUF3UkdYVWc?usp=sharing">https://drive.google.com/drive/folders/0B1lzT-Hp-8j2VGhQYUF3UkdYVWc?usp=sharing</a>
+<br>
+<b>windbg</b> comes from Windows SDK - <i>only install Debugging tools</i><br>
+<ul>win7: https://www.microsoft.com/en-us/download/details.aspx?id=3138</ul>
+<ul>win8: https://developer.microsoft.com/en-us/windows/downloads/windows-8-1-sdk</ul>
+<ul>win10: https://developer.microsoft.com/en-US/windows/downloads/windows-10-sdk</ul>
+<br>
+IE debug symbols would be downloaded directly from MS symbol servers<br>
+windbg will be installed into: <pre>C:\Program Files (x86)\Windows Kits\10\Debuggers\x86</pre>
+WinDBG ultraprimer: <a href="http://edit.sunfox.org/ultraprimer.html">here</a>
+WinDBG cheat sheet: <a href="http://windbg.info/doc/1-common-cmds.html">http://windbg.info/doc/1-common-cmds.html</a><br>
+<br>
+<b>Pykd, chain.py, mona + windbglib + DLLs</b> also available from <a href="https://drive.google.com/drive/folders/0B1lzT-Hp-8j2VGhQYUF3UkdYVWc?usp=sharing">google drive</a><br>
+<div></div>
+FYI: mona is not required (just a tribute to the awesome <i>Corelanc0d3r</i>), you may use instead native windbg commands:<br> 
+<ul>!address /f:Heap /c:"s -u %1 L?%3 \"var MyEgG\""</ul>
+
+<h3>what goes where</h3>
+pykd >> windbg/x64/winext<br>
+msdia* >> windbg/x64/winext<br>
+chain.py >> windbg/x64<br>
+mona.py >> windbg/x64<br>
+windbglib.py windbg/x64<br>
+</body>
+</html>
