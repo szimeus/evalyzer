@@ -16,7 +16,7 @@ Make sure you use the same bitness (x86 or x64) across all components (python, p
     (If you’re going to work with Chrome you’ll need different symbols!!
       _NT_SYMBOL_PATH= SRV*c:\symbols\chrome*https://chromium-browser-symsrv.commondatastorage.googleapis.com)
 3.  Corelan's mona for WinDBG https://github.com/corelan/windbglib/blob/master/README.md 
-    (TL;DR: put the following into windbg's x86|x64 folder: windbglib.py, mona.py, winext/pykd.pyd and register msdia90.dll)
+    (TL;DR: put the following into windbg's x86|x64 folder: windbglib.py, mona.py, winext/pykd.pyd and register msdia90.dll or msdia120.dll)
 4.  chain.py (contained in this repo) - copy file to windbg x86|x64 folder
 
 
@@ -33,4 +33,6 @@ How to use it:
 4.  check the logs
 __________
 
-update coming up very shortly! ( IE8 version, VirtualProtect breakpoints, etc...)
+Added materials from BSides Budapest 2017 workshop http://htmlpreview.github.io/?https://raw.githubusercontent.com/szimeus/evalyzer/master/BSides%20Budapest%202017%20workhop%20materials.html
+
+
