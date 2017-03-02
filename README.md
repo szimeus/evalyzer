@@ -32,7 +32,7 @@ How to use it:
 
 4.  check the logs
 __________
+[Added materials from BSides Budapest 2017 workshop](http://htmlpreview.github.io/?https://raw.githubusercontent.com/szimeus/evalyzer/master/BSides%20Budapest%202017%20workhop%20materials.html)
 
-Added materials from BSides Budapest 2017 workshop http://htmlpreview.github.io/?https://raw.githubusercontent.com/szimeus/evalyzer/master/BSides%20Budapest%202017%20workhop%20materials.html
 
 
